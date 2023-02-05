@@ -6,13 +6,16 @@ namespace BMICalculator
     {
         static void Main(string[] args)
         {
-            double weight = 70.2;
-            double hight = 182;
+            Console.Write("Please enter weight in KG: ");
+            double weight = Convert.ToDouble(Console.ReadLine()); 
 
+            Console.Write("Please enter hight in CM: ");
+            double hight = Convert.ToDouble(Console.ReadLine());
+            
             hight = hight / 100;
 
             // * Declare weight in Kg and hight in CM
-            // * After: Convert hight to Meters
+            // * After: Convert hight from CM to Meters
 
             double BMI = weight / (hight * hight);
             BMI = Math.Round(BMI, 2);
