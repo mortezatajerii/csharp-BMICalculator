@@ -6,6 +6,7 @@
   <body>
     <h1>BMI Calculator</h1>
     <div>
+      <img width="30%" align="right" src="https://media.giphy.com/media/QWRTOH8Ve594R34ICL/giphy.gif" width="256px"/>
       <p>
         BMI Calculator is here to assist you in calculating your body mass
         index(BMI).<br />
@@ -19,9 +20,6 @@
         If you have any messages for me, rich me by E-mail at
         <a href="mailto: mortezatajerii@gmail.com">mortezatajerii@gmail.com</a>
       </p>
-    </div>
-    <div>
-      <img src="https://media.giphy.com/media/QWRTOH8Ve594R34ICL/giphy.gif" width="256px"/>
     </div>
   </body>
 </html>
