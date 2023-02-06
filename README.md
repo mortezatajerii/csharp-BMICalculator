@@ -6,7 +6,7 @@
   <body>
     <h1>BMI Calculator</h1>
     <div>
-      <img width="30%" align="right" src="https://media.giphy.com/media/QWRTOH8Ve594R34ICL/giphy.gif" width="256px"/>
+      <img width="25%" align="right" src="https://media.giphy.com/media/QWRTOH8Ve594R34ICL/giphy.gif" width="256px"/>
       <p>
         BMI Calculator is here to assist you in calculating your body mass
         index(BMI).<br />
