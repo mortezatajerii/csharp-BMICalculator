@@ -11,7 +11,7 @@
         BMI Calculator is here to assist you in calculating your body mass
         index(BMI).<br />
         It is for practice; however, I use more advanced topics like Variables
-        and Constants.<br />
+        and Constants.
         Besides, either Input method helped collect the user's information.<br /><br />
         Technologies I used in developing this project:<br /><br />
         .NET Core SDK version 3.1.426<br />
