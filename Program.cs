@@ -9,8 +9,24 @@ namespace BMICalculator
             Console.Write("Please enter weight in KG: ");
             double weight = Convert.ToDouble(Console.ReadLine());
 
+            if (weight <= 0 || weight > 635)
+            {
+                Console.WriteLine($"{weight}?! it seems unnatural...");
+                Console.Write("Please enter weight in KG: ");
+                weight = Convert.ToDouble(Console.ReadLine());
+
+            }
+
             Console.Write("Please enter hight in CM: ");
             double hight = Convert.ToDouble(Console.ReadLine());
+
+            if (hight <= 0 || hight > 272)
+            {
+                Console.WriteLine($"{hight}?! it seems unnatural...");
+                Console.Write("Please enter hight in CM: ");
+                hight = Convert.ToDouble(Console.ReadLine());
+
+            }
 
             hight = hight / 100;
 
@@ -26,7 +42,7 @@ namespace BMICalculator
             {
                 Console.WriteLine($"Your BMI is equal to {BMI}, and you are underweight.");
             }
-            
+
             else if (BMI >= 18.5 & BMI < 25)
             {
                 Console.WriteLine($"Your BMI is equal to {BMI}, and you are normal.");
