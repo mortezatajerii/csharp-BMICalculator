@@ -20,8 +20,7 @@ namespace BMICalculator
             double BMI = weight / (hight * hight);
             BMI = Math.Round(BMI, 2);
 
-            ////  Math.Round Method limits decimal digits
-            //// Console.WriteLine($"Your BMI is {BMI}");
+            // *  Math.Round Method limits decimal digits
 
             if (BMI < 18.5)
             {
@@ -38,9 +37,14 @@ namespace BMICalculator
                 Console.WriteLine($"Your BMI is equal to {BMI}, and you are overweight.");
             }
 
-            else if (BMI >= 30)
+            else if (BMI >= 30 & BMI < 35)
             {
                 Console.WriteLine($"Your BMI is equal to {BMI}, and you are obese.");
+            }
+
+            else if (BMI >= 35)
+            {
+                Console.WriteLine($"Your BMI is equal to {BMI}, and you are extremely obese.");
             }
         }
     }
