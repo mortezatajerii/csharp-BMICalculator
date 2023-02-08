@@ -6,12 +6,12 @@
   <body>
     <h1>BMI Calculator</h1>
     <div>
-      <img width="30%" align="right" src="https://media.giphy.com/media/QWRTOH8Ve594R34ICL/giphy.gif" width="256px"/>
+      <img width="25%" align="right" src="https://media.giphy.com/media/QWRTOH8Ve594R34ICL/giphy.gif" width="256px"/>
       <p>
         BMI Calculator is here to assist you in calculating your body mass
         index(BMI).<br />
         It is for practice; however, I use more advanced topics like Variables
-        and Constants.<br />
+        and Constants.
         Besides, either Input method helped collect the user's information.<br /><br />
         Technologies I used in developing this project:<br /><br />
         .NET Core SDK version 3.1.426<br />
