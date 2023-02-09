@@ -58,7 +58,7 @@ namespace BMICalculator
                 Console.WriteLine($"Your BMI is equal to {BMI}, and you are obese.");
             }
 
-            else if (BMI >= 35)
+            else
             {
                 Console.WriteLine($"Your BMI is equal to {BMI}, and you are extremely obese.");
             }
